@@ -33,7 +33,7 @@ jobs:
           libtool
           autoconf
           automake-wrapper
-          openssl
+          openssl-devel
     - name: prepare environment
       run: |
           dest=`echo ${{ matrix.msystem }} |tr [:upper:] [:lower:]`
